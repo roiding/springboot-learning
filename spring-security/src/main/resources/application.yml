@@ -1,0 +1,6 @@
+spring:
+  datasource:
+     url: jdbc:mysql://remotemysql.com:3306/Jn7C907GyG?useUnicode=true&characterEncoding=utf8
+     driver-class-name: com.mysql.jdbc.Driver
+     username: Jn7C907GyG
+     password: 49M85tdcMB
