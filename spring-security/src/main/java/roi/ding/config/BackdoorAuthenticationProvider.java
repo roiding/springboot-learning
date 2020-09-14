@@ -33,6 +33,7 @@ public class BackdoorAuthenticationProvider implements AuthenticationProvider {
             return null;
         }
     }
+    
 
     @Override
     public boolean supports(Class<?> authentication) {

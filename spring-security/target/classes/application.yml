@@ -4,3 +4,6 @@ spring:
      driver-class-name: com.mysql.jdbc.Driver
      username: Jn7C907GyG
      password: 49M85tdcMB
+logging:
+  level:
+    root: info

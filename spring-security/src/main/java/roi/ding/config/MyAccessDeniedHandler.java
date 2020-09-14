@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Created by wxb on 2018/10/27 0027.
  */
 @Component
 public class MyAccessDeniedHandler implements AccessDeniedHandler {

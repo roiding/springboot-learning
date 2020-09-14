@@ -15,7 +15,6 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Created by wxb on 2018/10/26 0026.
  * 自定义的元数据源类，用来提供鉴权过程中，访问资源所需的角色
  */
 @Component

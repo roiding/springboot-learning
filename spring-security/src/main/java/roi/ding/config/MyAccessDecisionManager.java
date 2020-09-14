@@ -32,7 +32,7 @@ public class MyAccessDecisionManager implements AccessDecisionManager {
             String role = attribute.getAttribute();
 
             if ("ROLE_NONE".equals(role)) {
-                if (authentication instanceof AnonymousAuthenticationToken) {
+                if (authentication instanceof AnonymousAuthenticationToken) {//相当于没有输入用户名密码的匿名登陆
                     throw new BadCredentialsException("用户未登录");
                 } else
                     return;

@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import roi.ding.bean.MyUserBean;
 
 /**
- * Created by wxb on 2018/10/23 0023.
  * 数据库表user的mapper类
  */
 @Mapper

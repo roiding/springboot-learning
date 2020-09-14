@@ -8,7 +8,6 @@ import roi.ding.bean.MyResourceBean;
 import java.util.List;
 
 /**
- * Created by wxb on 2018/10/27 0027.
  */
 @Component
 @Mapper
