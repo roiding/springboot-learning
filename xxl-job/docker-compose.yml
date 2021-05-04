@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+   xxl-job-admin:
+    image: maodou38/xxl-job-admin
+    ports:
+      - "8080:8080"
+    restart: always
+    container_name: xxl-job-admin
+    volumes:
+      - /home/opc/xxl-job/admin-logs:/data/applogs
+   xxl-job-executor:
+    image: maodou38/xxl-job-executor
+    ports:
+      - "8081:8081"
+    restart: always
+    container_name: xxl-job-executor
+    depends_on:
+      - xxl-job-admin
